@@ -24,9 +24,11 @@ dashboard.section.header.val = {
 dashboard.section.buttons.val = {
 	dashboard.button("f", "  Find file", ":Telescope find_files <CR>"),
 	dashboard.button("e", "  New file", ":ene <BAR> startinsert <CR>"),
-	dashboard.button("p", "  Find project", ":NvimTreeFindFile <CR>"),
+	dashboard.button("p", "  Open project here", ":NvimTreeOpen <CR>"),
+	dashboard.button("g", "  System Monitor", ":lua _BTOP_TOGGLE() <CR>"),
 	dashboard.button("r", "  Recently used files", ":Telescope oldfiles <CR>"),
 	dashboard.button("t", "  Find text", ":Telescope live_grep <CR>"),
+	dashboard.button("g", "  Git option", ":lua _LAZYGIT_TOGGLE() <CR>"),
 	dashboard.button("c", "  Configuration", ":e $MYVIMRC <CR>"),
 	dashboard.button("q", "  Quit Neovim", ":qa<CR>"),
 }
@@ -37,7 +39,7 @@ local function footer()
 	-- local fortune = handle:read("*a")
 	-- handle:close()
 	-- return fortune
-	return "chrisatmachine.com"
+	return "mr-fox-h.github.io"
 end
 
 dashboard.section.footer.val = footer()

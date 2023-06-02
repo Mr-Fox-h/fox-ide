@@ -124,10 +124,15 @@ _G.packer_plugins = {
     path = "/home/mr-fox/.local/share/nvim/site/pack/packer/start/friendly-snippets",
     url = "https://github.com/rafamadriz/friendly-snippets"
   },
-  gruvbox = {
+  ["kanagawa.nvim"] = {
     loaded = true,
-    path = "/home/mr-fox/.local/share/nvim/site/pack/packer/start/gruvbox",
-    url = "https://github.com/morhetz/gruvbox"
+    path = "/home/mr-fox/.local/share/nvim/site/pack/packer/start/kanagawa.nvim",
+    url = "https://github.com/rebelot/kanagawa.nvim"
+  },
+  ["lualine.nvim"] = {
+    loaded = true,
+    path = "/home/mr-fox/.local/share/nvim/site/pack/packer/start/lualine.nvim",
+    url = "https://github.com/nvim-lualine/lualine.nvim"
   },
   ["mason-lspconfig.nvim"] = {
     loaded = true,

@@ -51,9 +51,10 @@ return packer.startup(function(use)
   use "moll/vim-bbye"
   use "akinsho/toggleterm.nvim"
   use "goolord/alpha-nvim"
+  use "nvim-lualine/lualine.nvim"
 
   -- Colorschemes
-  use "morhetz/gruvbox"
+  use "rebelot/kanagawa.nvim"
 
   -- Cmp plugins
   use "hrsh7th/nvim-cmp" -- The completion plugin
