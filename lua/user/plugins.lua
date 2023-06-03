@@ -52,6 +52,8 @@ return packer.startup(function(use)
   use "akinsho/toggleterm.nvim"
   use "goolord/alpha-nvim"
   use "nvim-lualine/lualine.nvim"
+  use "windwp/nvim-autopairs"
+  use "lewis6991/gitsigns.nvim"
 
   -- Colorschemes
   use "rebelot/kanagawa.nvim"
