@@ -54,6 +54,8 @@ return packer.startup(function(use)
   use "nvim-lualine/lualine.nvim"
   use "windwp/nvim-autopairs"
   use "lewis6991/gitsigns.nvim"
+  use "rcarriga/nvim-notify"
+  use { 'michaelb/sniprun', run = 'sh ./install.sh'}
 
   -- Colorschemes
   use "rebelot/kanagawa.nvim"
