@@ -27,12 +27,12 @@ dashboard.section.buttons.val = {
 	dashboard.button("o", "  Open project here", ":NvimTreeOpen <CR>"),
 	dashboard.button("g", "  System Monitor", ":lua _BTOP_TOGGLE() <CR>"),
 	dashboard.button("r", "  Recently used files", ":Telescope oldfiles <CR>"),
-	dashboard.button("t", "  Find text", ":Telescope live_grep <CR>"),
-	dashboard.button("g", "  Git option", ":lua _LAZYGIT_TOGGLE() <CR>"),
+	dashboard.button("t", "  Find text", ":Telescope live_grep <CR>"),
+	dashboard.button("g", "󰊢  Git option", ":lua _LAZYGIT_TOGGLE() <CR>"),
 	dashboard.button("c", "  Configuration", ":e $MYVIMRC <CR>"),
 	dashboard.button("p", "  Notification of IDE", ":Telescope notify <CR>"),
-	dashboard.button("h", "󰋖  Help", ":help <CR>"),
-	dashboard.button("q", "  Exit", ":qa<CR>"),
+	dashboard.button("h", "󰋗  Help", ":help <CR>"),
+	dashboard.button("q", "  Exit", ":qa<CR>"),
 }
 
 local function footer()

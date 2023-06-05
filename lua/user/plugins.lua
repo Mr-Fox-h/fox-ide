@@ -56,6 +56,7 @@ return packer.startup(function(use)
   use "lewis6991/gitsigns.nvim"
   use "rcarriga/nvim-notify"
   use { 'michaelb/sniprun', run = 'sh ./install.sh'}
+  use "ziontee113/color-picker.nvim"
 
   -- Colorschemes
   use "rebelot/kanagawa.nvim"

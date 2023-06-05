@@ -119,6 +119,11 @@ _G.packer_plugins = {
     path = "/home/mr-fox/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
+  ["color-picker.nvim"] = {
+    loaded = true,
+    path = "/home/mr-fox/.local/share/nvim/site/pack/packer/start/color-picker.nvim",
+    url = "https://github.com/ziontee113/color-picker.nvim"
+  },
   ["friendly-snippets"] = {
     loaded = true,
     path = "/home/mr-fox/.local/share/nvim/site/pack/packer/start/friendly-snippets",
