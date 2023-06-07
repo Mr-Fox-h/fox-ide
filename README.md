@@ -4,4 +4,4 @@ __Fox-IDE__ is a simple IDE create with Neovim and some plugins.
 
 # Version
 
-Version 0.4.9
+Version 0.5.0
