@@ -58,6 +58,7 @@ return packer.startup(function(use)
   use { 'michaelb/sniprun', run = 'sh ./install.sh'}
   use "ziontee113/color-picker.nvim"
   use "norcalli/nvim-colorizer.lua"
+  use "sudormrfbin/cheatsheet.nvim"
 
   -- Colorschemes
   use "rebelot/kanagawa.nvim"
