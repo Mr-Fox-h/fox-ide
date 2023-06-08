@@ -59,6 +59,7 @@ return packer.startup(function(use)
   use "ziontee113/color-picker.nvim"
   use "norcalli/nvim-colorizer.lua"
   use "sudormrfbin/cheatsheet.nvim"
+  use "NvChad/nvterm"
 
   -- Colorschemes
   use "rebelot/kanagawa.nvim"
