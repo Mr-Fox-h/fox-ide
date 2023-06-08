@@ -20,9 +20,9 @@ vim.g.maplocalleader = " "
 
 -- Normal --
 -- Better window navigation
-keymap("n", "<C-h>", "<C-w>h", opts)
-keymap("n", "<C-k>", "<C-w>k", opts)
-keymap("n", "<C-l>", "<C-w>l", opts)
+keymap("n", "<A-Left>", "<C-w>h", opts)
+keymap("n", "<A-k>", "<C-w>k", opts)
+keymap("n", "<A-Right>", "<C-w>l", opts)
 
 keymap("n", "<leader>e", ":Lex 30<cr>", opts)
 
@@ -33,8 +33,8 @@ keymap("n", "<C-Left>", ":vertical resize -2<CR>", opts)
 keymap("n", "<C-Right>", ":vertical resize +2<CR>", opts)
 
 -- Navigate buffers
-keymap("n", "<S-l>", ":bnext<CR>", opts)
-keymap("n", "<S-h>", ":bprevious<CR>", opts)
+keymap("n", "<S-Right>", ":bnext<CR>", opts)
+keymap("n", "<S-Left>", ":bprevious<CR>", opts)
 
 -- Move text up and down
 keymap("n", "<A-j>", "<Esc>:m .+1<CR>==gi", opts)
