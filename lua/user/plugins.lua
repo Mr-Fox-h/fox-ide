@@ -63,7 +63,8 @@ return packer.startup(function(use)
 
   -- Colorschemes
   use "rebelot/kanagawa.nvim"
-  use "morhetz/gruvbox"
+  use "ellisonleao/gruvbox.nvim"
+  use "catppuccin/nvim"
 
   -- Cmp plugins
   use "hrsh7th/nvim-cmp" -- The completion plugin
