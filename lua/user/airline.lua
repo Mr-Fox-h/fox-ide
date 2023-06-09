@@ -36,7 +36,7 @@ local conditions = {
 -- Config
 local config = {
   options = {
-    theme = 'kanagawa',
+    theme = 'auto',
     -- Disable sections and component separators
     component_separators = '',
     section_separators = { left = '', right = '' },
@@ -174,8 +174,8 @@ ins_left {
     end
     return msg
   end,
-  icon = '  [LSP] ',
-  color = { fg = '#ffffff', gui = 'bold' },
+  icon = '',
+  color = { fg = 'auto', gui = 'bold' },
 }
 
 -- Add components to right sections
