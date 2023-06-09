@@ -139,6 +139,11 @@ _G.packer_plugins = {
     path = "/home/mr-fox/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
     url = "https://github.com/lewis6991/gitsigns.nvim"
   },
+  gruvbox = {
+    loaded = true,
+    path = "/home/mr-fox/.local/share/nvim/site/pack/packer/start/gruvbox",
+    url = "https://github.com/morhetz/gruvbox"
+  },
   ["kanagawa.nvim"] = {
     loaded = true,
     path = "/home/mr-fox/.local/share/nvim/site/pack/packer/start/kanagawa.nvim",
