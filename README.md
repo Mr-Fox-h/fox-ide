@@ -122,9 +122,13 @@ TRX Address: __TKRKXCejSw5Z4UL5u5nQqzQB9bk4eVbsPt__
 <div align="center">
 
   <img src="IMG/B.png">
+  <p></p>
   <img src="IMG/E.png">
+  <p></p>
   <img src="IMG/S.png">
+  <p></p>
   <img src="IMG/T.png">
+  <p></p>
 
 </div>
 
