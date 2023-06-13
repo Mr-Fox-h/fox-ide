@@ -107,7 +107,7 @@ rd -r ~\AppData\Local\nvim-data
 
 I used to use VScode with vim extension. The VScode was good, but not perfect for me! because I install vim extension on VScode to write code without using silly mouse Or touchpad; In VScode you always need mouse or touchpad, and it was make me slow, and The VScode always try to kill my Memory, so I decide to create my own IDE with Vim editor, but Vim is too old, os I used Neovim.
 
-## 💝 Support
+## :gift_heart: Support
 
 If you like __Fox IDE__ and would like to support & appreciate it via donation then I'll gladly accept it.
 
