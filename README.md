@@ -2,9 +2,9 @@
 <div align="center">
 	<a href="https://mr-fox-h.github.io">Home</a>
   <span> | </span>
-  <a href="https://github.com/Mr-Fox-h/fox-ide#install_now-install">Install</a>
+  <a href="https://github.com/Mr-Fox-h/fox-ide#install">Install</a>
   <span> | </span>
-	<a href="href="https://github.com/Mr-Fox-h/fox-ide#support_me-support">Support</a>
+	<a href="href="https://github.com/Mr-Fox-h/fox-ide#support">Support</a>
   <p></p>
 </div> 
 
@@ -16,15 +16,15 @@
 
 </div>
 
-## 🔥 Showcase
+## Showcase
 
-<img src="IMG/Screenshot%20from%202023-06-12%2019-43-17.png">
+<img src="IMG/Fox_IDE.png">
 
-## 🤔 What is Fox IDE?
+## What is Fox IDE?
 
 __Fox IDE__ is a simple IDE create with Neovim config and written in Lua. The goal of that to increase your speed of writing and more customizable.
 
-## 🍭 Themes
+## Themes
 
 ### Kangawa
 
@@ -45,7 +45,7 @@ __Fox IDE__ is a simple IDE create with Neovim config and written in Lua. The go
 <img src="IMG/C_4.png">
 <img src="IMG/C_5.png">
 
-## 🧰 Plugins
+## Plugins
 
 This IDE have some cool Lua plugins such as:
 - [kanagawa](https://github.com/rebelot/kanagawa.nvim)
@@ -68,7 +68,7 @@ This IDE have some cool Lua plugins such as:
 - [nvterm](https://github.com/NvChad/nvterm)
 - and more
 
-## :install_now:🖥️ Install
+## Install
 
 First you need to install Neovim (Version 0.8.3 or last version of Neovim) on your computer. For Linux, use this command:
 
@@ -88,7 +88,7 @@ Then, open Neovim and use this command:
 :PackerUpdate
 ```
 
-## 🖥️ Uninstall
+## Uninstall
 
 Linux / Mac (Unix):
 ``` 
@@ -103,11 +103,11 @@ rd -r ~\AppData\Local\nvim
 rd -r ~\AppData\Local\nvim-data
 ```
 
-## 📕 Short Story
+## Short Story
 
 I used to use VScode with vim extension. The VScode was good, but not perfect for me! because I install vim extension on VScode to write code without using silly mouse Or touchpad; In VScode you always need mouse or touchpad, and it was make me slow, and The VScode always try to kill my Memory, so I decide to create my own IDE with Vim editor, but Vim is too old, os I used Neovim.
 
-## :suport_me:💝 Suport
+## 💝 Support
 
 If you like __Fox IDE__ and would like to support & appreciate it via donation then I'll gladly accept it.
 
@@ -128,6 +128,6 @@ TRX Address: __TKRKXCejSw5Z4UL5u5nQqzQB9bk4eVbsPt__
 
 </div>
 
-## 🌑 Version
+## Version
 
 Version 0.5.2
