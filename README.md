@@ -5,7 +5,6 @@
   <a href="https://github.com/Mr-Fox-h/fox-ide#install">Install</a>
   <span> | </span>
 	<a href="href="https://github.com/Mr-Fox-h/fox-ide#gift_heart-support">Support</a>
-  <p></p>
 </div> 
 
 <div align="center">
