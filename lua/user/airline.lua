@@ -91,7 +91,10 @@ ins_left {
 ins_left {
   -- mode component
   function()
-    return ''
+    --return ''
+    --return ''
+    --return ''
+    return ''
   end,
   color = function()
     -- auto change color according to neovims mode
@@ -130,7 +133,7 @@ ins_left {
 ins_left {
   'filename',
   cond = conditions.buffer_not_empty,
-  icon = '󰈔',
+  icon = ' ',
   color = { fg = colors.magenta, gui = 'bold' },
 }
 
