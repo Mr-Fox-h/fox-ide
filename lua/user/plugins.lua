@@ -60,11 +60,20 @@ return packer.startup(function(use)
   use "norcalli/nvim-colorizer.lua"
   use "sudormrfbin/cheatsheet.nvim"
   use "NvChad/nvterm"
+  use {
+    'phaazon/hop.nvim',
+    branch = 'v2', -- optional but strongly recommended
+    config = function()
+      -- you can configure Hop the way you like here; see :h hop-config
+      require'hop'.setup { keys = 'etovxqpdygfblzhckisuran' }
+    end
+  } --Hop is an EasyMotion-like plugin allowing you to jump anywhere in a document with as few keystrokes as possible.
 
   -- Colorschemes
   use "rebelot/kanagawa.nvim"
   use "ellisonleao/gruvbox.nvim"
   use "catppuccin/nvim"
+  use "folke/tokyonight.nvim"
 
   -- Cmp plugins
   use "hrsh7th/nvim-cmp" -- The completion plugin
