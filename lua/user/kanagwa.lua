@@ -23,3 +23,5 @@ require('kanagawa').setup({
         light = "lotus"
     },
 })
+
+vim.cmd("colorscheme kanagawa-dragon")
