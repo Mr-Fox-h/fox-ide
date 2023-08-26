@@ -265,11 +265,6 @@ _G.packer_plugins = {
     path = "/home/mr-fox/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
     url = "https://github.com/folke/tokyonight.nvim"
   },
-  ["v-vim"] = {
-    loaded = true,
-    path = "/home/mr-fox/.local/share/nvim/site/pack/packer/start/v-vim",
-    url = "https://github.com/ollykel/v-vim"
-  },
   ["vim-bbye"] = {
     loaded = true,
     path = "/home/mr-fox/.local/share/nvim/site/pack/packer/start/vim-bbye",

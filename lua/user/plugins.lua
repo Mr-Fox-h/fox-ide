@@ -93,7 +93,6 @@ return packer.startup(function(use)
   use "williamboman/mason.nvim" -- simple to use language server installer
   use "williamboman/mason-lspconfig.nvim" -- simple to use language server installer
   use 'jose-elias-alvarez/null-ls.nvim' -- LSP diagnostics and code acti
-  use "ollykel/v-vim"
 
   -- Telescope
   use 'nvim-telescope/telescope-media-files.nvim'
