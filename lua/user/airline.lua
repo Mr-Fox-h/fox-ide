@@ -23,15 +23,13 @@ require('lualine').setup {
   },
   sections = {
     lualine_a = {
-      { 'mode', icon = '', separator = { left = '', right = '' }, right_padding = 2 },
+      { 'mode', separator = { left = '', right = '' }, right_padding = 2 },
     },
-    lualine_b = { 'filename', {'branch', icon = ''} },
-    lualine_c = { 'fileformat' },
+    lualine_b = { 'filename', { 'branch', icon = '' } },
+    lualine_c = {},
     lualine_x = {},
-    lualine_y = { 'filetype', 'progress' },
-    lualine_z = {
-      { 'location', separator = { right = '', left = '' }, left_padding = 2 },
-    },
+    lualine_y = { 'filetype', { 'diagnostics', sources = { 'nvim_diagnostic' }, symbols = { error = ' ', warn = ' ', info = ' ', hint = '󰌵' } }, 'progress' },
+    lualine_z = { { 'fileformat', symbols = { unix = '', dos = '', mac = '' }}, { 'location', separator = { right = '', left = '' }, left_padding = 2 } },
   },
   inactive_sections = {
     lualine_a = { 'filename' },
