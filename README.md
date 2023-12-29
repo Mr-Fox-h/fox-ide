@@ -138,4 +138,4 @@ TRX Address: __TKRKXCejSw5Z4UL5u5nQqzQB9bk4eVbsPt__
 
 ## Version
 
-Version 0.5.2
+Version 0.6.0
