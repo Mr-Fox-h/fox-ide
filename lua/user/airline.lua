@@ -1,44 +1,40 @@
--- Color table for highlights
--- stylua: ignore
-local colors = {
-  bg       = '#100D11',
-  fg       = '#bbc2cf',
-  yellow   = '#ECBE7B',
-  cyan     = '#008080',
-  darkblue = '#081633',
-  green    = '#98be65',
-  orange   = '#FF8800',
-  violet   = '#a9a1e1',
-  magenta  = '#c678dd',
-  blue     = '#51afef',
-  red      = '#ec5f67',
-}
-
--- Config
 require('lualine').setup {
   options = {
+    icons_enabled = true,
     theme = 'auto',
-    component_separators = '▎',
-    section_separators = { left = '', right = '' },
+    component_separators = { left = '', right = ''},
+    section_separators = { left = '', right = ''},
+    disabled_filetypes = {
+      statusline = {},
+      winbar = {},
+    },
+    ignore_focus = {},
+    always_divide_middle = true,
+    globalstatus = false,
+    refresh = {
+      statusline = 1000,
+      tabline = 1000,
+      winbar = 1000,
+    }
   },
   sections = {
-    lualine_a = {
-      { 'mode', icon = '', separator = { left = '', right = '' }, right_padding = 2 },
-    },
-    lualine_b = { 'filename', { 'branch', icon = '' } },
+    lualine_a = {{ 'mode', icon = '' }},
+    lualine_b = {{ 'branch', icon = '' }, 'diff', 'filetype', { 'filename', icon = '' }},
     lualine_c = {},
     lualine_x = {},
-    lualine_y = { 'filetype', { 'diagnostics', sources = { 'nvim_diagnostic' }, symbols = { error = ' ', warn = ' ', info = ' ', hint = '󰌵' }}, 'progress' },
-    lualine_z = { { 'fileformat', symbols = { unix = '', dos = '', mac = '' }}, { 'location', separator = { right = '', left = '' }, left_padding = 2 } },
+    lualine_y = {'encoding', {'diagnostics', sources = { 'nvim_diagnostic' }, symbols = { error = ' ', warn = ' ', info = ' ', hint = '󰌵' }}, 'progress'},
+    lualine_z = {{ 'fileformat', symbols = { unix = '', dos = '', mac = '' }}, { 'location', separator = { right = '', left = '' }, left_padding = 2 }}
   },
   inactive_sections = {
-    lualine_a = { 'filename' },
+    lualine_a = {},
     lualine_b = {},
-    lualine_c = {},
-    lualine_x = {},
+    lualine_c = {'filename'},
+    lualine_x = {'location'},
     lualine_y = {},
-    lualine_z = { 'location' },
+    lualine_z = {}
   },
   tabline = {},
-  extensions = {},
+  winbar = {},
+  inactive_winbar = {},
+  extensions = {}
 }

@@ -1,21 +1,25 @@
-require "user.options"
-require "user.keymaps"
-require "user.plugins"
-require "user.kanagwa"
-require "user.gruvbox"
-require "user.cmp"
-require "user.lsp"
-require "user.telescope"
-require "user.treesitter"
-require "user.nvim-tree"
-require "user.bufferline"
-require "user.toggleterm"
-require "user.alpha"
-require "user.airline"
-require "user.autopairs"
-require "user.gitsigns"
-require "user.nvim-notify"
-require "user.color-picker"
-require "user.nvim-colorizer"
-require "user.nvterm"
-require "user.hop"
+require("user.options")
+require("user.keymaps")
+require("user.plugins")
+require("user.kanagwa")
+require("user.gruvbox")
+require("user.colors")
+require("user.cmp")
+require("user.lsp")
+require("user.telescope")
+require("user.treesitter")
+require("user.nvim-tree")
+require("user.bufferline")
+require("user.toggleterm")
+require("user.alpha")
+require("user.airline")
+require("user.autopairs")
+require("user.gitsigns")
+require("user.lsp-zero")
+require("user.nvim-notify")
+require("user.color-picker")
+require("user.nvim-colorizer")
+require("user.nvterm")
+require("user.hop")
+require("user.neovide")
+require("user.outline")

@@ -59,7 +59,9 @@ return packer.startup(function(use)
   use "ziontee113/color-picker.nvim"
   use "norcalli/nvim-colorizer.lua"
   use "sudormrfbin/cheatsheet.nvim"
-  use "NvChad/nvterm"
+  use "NvChad/nvterm" -- Terminal
+  use 'hrsh7th/cmp-vsnip'
+  use 'hrsh7th/vim-vsnip'
   use {
     'phaazon/hop.nvim',
     branch = 'v2', -- optional but strongly recommended
@@ -68,6 +70,7 @@ return packer.startup(function(use)
       require'hop'.setup { keys = 'etovxqpdygfblzhckisuran' }
     end
   } --Hop is an EasyMotion-like plugin allowing you to jump anywhere in a document with as few keystrokes as possible.
+  use "hedyhli/outline.nvim"
 
   -- Colorschemes
   use "rebelot/kanagawa.nvim"
@@ -89,6 +92,7 @@ return packer.startup(function(use)
   use "rafamadriz/friendly-snippets" -- a bunch of snippets to use
 
   -- LSP
+  use { 'VonHeikemen/lsp-zero.nvim', branch = 'v3.x' }
   use "neovim/nvim-lspconfig" -- enable LSP
   use "williamboman/mason.nvim" -- simple to use language server installer
   use "williamboman/mason-lspconfig.nvim" -- simple to use language server installer
@@ -97,10 +101,11 @@ return packer.startup(function(use)
   -- Telescope
   use 'nvim-telescope/telescope-media-files.nvim'
   use {
-    'nvim-telescope/telescope.nvim', tag = '0.1.1',
+    'nvim-telescope/telescope.nvim', tag = '0.1.5',
   -- or                            , branch = '0.1.x',
     requires = { {'nvim-lua/plenary.nvim'} }
   }
+
 
   -- Treesitter
   use {

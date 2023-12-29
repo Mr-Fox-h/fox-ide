@@ -9,7 +9,7 @@ vim.notify.setup({
     DEBUG = "",
     ERROR = "",
     INFO = "",
-    TRACE = "✎",
+    TRACE = "󰏪",
     WARN = ""
   },
 })

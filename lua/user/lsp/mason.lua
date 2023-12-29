@@ -4,8 +4,10 @@ local servers = {
 	"html",
 	"tsserver",
 	"pyright",
-	"jsonls",
-	"yamlls",
+  "ruby_ls",
+  "clangd",
+  "asm_lsp",
+  "rust_analyzer"
 }
 
 local settings = {
