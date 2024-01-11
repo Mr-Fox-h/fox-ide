@@ -70,7 +70,8 @@ return packer.startup(function(use)
       require'hop'.setup { keys = 'etovxqpdygfblzhckisuran' }
     end
   } --Hop is an EasyMotion-like plugin allowing you to jump anywhere in a document with as few keystrokes as possible.
-  use "hedyhli/outline.nvim"
+  --use "hedyhli/outline.nvim"
+  use 'simrat39/symbols-outline.nvim'
 
   -- Colorschemes
   use "rebelot/kanagawa.nvim"

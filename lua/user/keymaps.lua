@@ -42,15 +42,15 @@ keymap("n", "<S-Right>", ":bnext<CR>", opts)
 keymap("n", "<S-Left>", ":bprevious<CR>", opts)
 
 -- Symbols Outline
-keymap("n", "<Space>s", ":Outline<CR>", opts)
+keymap("n", "<Space>s", ":SymbolsOutline<CR>", opts)
 
 -- Move text up and down
 keymap("n", "<A-j>", "<Esc>:m .+1<CR>==gi", opts)
 keymap("n", "<A-k>", "<Esc>:m .-2<CR>==gi", opts)
 
 -- Insert --
--- Press ii fast to exit
-keymap("i", "ii", "<ESC>", opts)
+-- Press jk fast to exit
+keymap("i", "jk", "<ESC>", opts)
 
 -- Visual --
 -- Stay in indent mode

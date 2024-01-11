@@ -235,11 +235,6 @@ _G.packer_plugins = {
     path = "/home/mr-fox/.local/share/nvim/site/pack/packer/start/nvterm",
     url = "https://github.com/NvChad/nvterm"
   },
-  ["outline.nvim"] = {
-    loaded = true,
-    path = "/home/mr-fox/.local/share/nvim/site/pack/packer/start/outline.nvim",
-    url = "https://github.com/hedyhli/outline.nvim"
-  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/home/mr-fox/.local/share/nvim/site/pack/packer/start/packer.nvim",
@@ -259,6 +254,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/mr-fox/.local/share/nvim/site/pack/packer/start/sniprun",
     url = "https://github.com/michaelb/sniprun"
+  },
+  ["symbols-outline.nvim"] = {
+    loaded = true,
+    path = "/home/mr-fox/.local/share/nvim/site/pack/packer/start/symbols-outline.nvim",
+    url = "https://github.com/simrat39/symbols-outline.nvim"
   },
   ["telescope-media-files.nvim"] = {
     loaded = true,
