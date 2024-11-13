@@ -1,6 +1,6 @@
 local servers = {
 	"lua_ls",
-  "ruby_ls",
+  "ruby_lsp",
   "clangd",
   "rust_analyzer"
 }
