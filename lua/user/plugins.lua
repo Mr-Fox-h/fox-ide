@@ -75,8 +75,6 @@ return packer.startup(function(use)
 
   -- Colorschemes
   use "rebelot/kanagawa.nvim"
-  use "ellisonleao/gruvbox.nvim"
-  use "catppuccin/nvim"
   use "folke/tokyonight.nvim"
 
   -- Cmp plugins

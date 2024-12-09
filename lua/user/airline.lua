@@ -18,12 +18,12 @@ require('lualine').setup {
     }
   },
   sections = {
-    lualine_a = {{ 'mode', icon = '' }},
-    lualine_b = {{ 'branch', icon = '' }, 'diff', 'filetype', { 'filename', icon = '' }},
+    lualine_a = {{ 'mode', icon = '' }},
+    lualine_b = {{ 'branch', icon = '' }, 'diff', 'filetype', { 'filename', icon = '鑢' }},
     lualine_c = {},
     lualine_x = {},
     lualine_y = {'encoding', {'diagnostics', sources = { 'nvim_diagnostic' }, symbols = { error = ' ', warn = ' ', info = ' ', hint = '󰌵' }}, 'progress'},
-    lualine_z = {{ 'fileformat', symbols = { unix = '', dos = '', mac = '' }}, { 'location', separator = { right = '', left = '' }, left_padding = 2 }}
+    lualine_z = {{ 'fileformat', symbols = { unix = '', dos = '', mac = '' }}, { 'location', separator = { right = '▊', left = '' }, left_padding = 2 }}
   },
   inactive_sections = {
     lualine_a = {},
