@@ -25,16 +25,17 @@ dashboard.section.header.val = {
 [[██      ██ ██   ██ ██      ]],
 [[█████   ██ ██   ██ █████   ]],
 [[██      ██ ██   ██ ██      ]],
-[[██      ██ ██████  ███████ ]],
+[[██ OX   ██ ██████  ███████ ]],
 [[                           ]],
 [[    Powered By  eovim    ]],
 }
 
 dashboard.section.buttons.val = {
-	dashboard.button("<S-f>", "  Find File", ":Telescope find_files <CR>"),
-	dashboard.button("<S-r>", "󰁯  Recent Files", ":Telescope oldfiles <CR>"),
-	dashboard.button("<S-t>", "󱉶  Find Words", ":Telescope live_grep <CR>"),
-	dashboard.button("<S-c>", "  Configuration", ":e $MYVIMRC <CR>"),
+	dashboard.button("<S-s>", "  Find File", ":Telescope find_files <CR>"),
+	dashboard.button("<S-r>", "󱑆  Recent Files", ":Telescope oldfiles <CR>"),
+	dashboard.button("<S-f>", "󱉶  Find Words", ":Telescope live_grep <CR>"),
+	dashboard.button("<S-q>", "  Git Status", ":Telescope git_status <CR>"),
+	dashboard.button("<S-c>", "  Configuration", ":e $MYVIMRC <CR>"),
 	dashboard.button("<S-n>", "  Notification", ":Telescope notify <CR>"),
 	dashboard.button("<S-m>", "󰌌  Mapping", ":help <CR>"),
 }

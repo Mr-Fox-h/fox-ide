@@ -25,6 +25,14 @@ require('telescope').setup{
       theme = "dropdown",
       prompt_prefix = " >"
     },
+    git_status = {
+      theme = "dropdown",
+      prompt_prefix = " >"
+    },
+    live_grep = {
+      theme = "dropdown",
+      prompt_prefix = " >"
+    },
   },
   extensions = {
     -- Your extension configuration goes here:

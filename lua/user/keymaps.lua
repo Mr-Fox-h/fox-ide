@@ -36,6 +36,8 @@ keymap("n", "<S-t>", ":NvimTreeToggle <CR>", opts)
 keymap("n", "<S-s>", ":Telescope find_files <CR>", opts)
 keymap("n", "<S-n>", ":Telescope notify <CR>", opts)
 keymap("n", "<S-b>", ":Telescope oldfiles <CR>", opts)
+keymap("n", "<S-q>", ":Telescope git_status <CR>", opts)
+keymap("n", "<S-f>", ":Telescope live_grep <CR>", opts)
 
 -- Navigate buffers
 keymap("n", "<S-Right>", ":bnext<CR>", opts)

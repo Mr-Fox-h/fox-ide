@@ -2,8 +2,8 @@ require('lualine').setup {
   options = {
     icons_enabled = true,
     theme = 'auto',
-    component_separators = { left = '', right = ''},
-    section_separators = { left = '', right = ''},
+    component_separators = { left = '', right = ''},
+    section_separators = { left = '', right = ''},
     disabled_filetypes = {
       statusline = {},
       winbar = {},
@@ -19,11 +19,11 @@ require('lualine').setup {
   },
   sections = {
     lualine_a = {{ 'mode', icon = '' }},
-    lualine_b = {{ 'branch', icon = '' }, 'diff', 'filetype', { 'filename', icon = '鑢' }},
+    lualine_b = {{ 'branch', icon = '' }, 'diff', 'filetype', { 'filename', icon = '鑢' }},
     lualine_c = {},
     lualine_x = {},
-    lualine_y = {'encoding', {'diagnostics', sources = { 'nvim_diagnostic' }, symbols = { error = ' ', warn = ' ', info = ' ', hint = '󰌵' }}, 'progress'},
-    lualine_z = {{ 'fileformat', symbols = { unix = '', dos = '', mac = '' }}, { 'location', separator = { right = '▊', left = '' }, left_padding = 2 }}
+    lualine_y = {{'diagnostics', sources = { 'nvim_diagnostic' }, symbols = { error = ' ', warn = ' ', info = ' ', hint = '󰌵' }}},
+    lualine_z = {{ 'fileformat', symbols = { unix = '', dos = '', mac = '' }, separator = { right = '', left = '' }, color = {fg = nil, bg = '#f2545b'}}, 'filesize', { 'location', separator = { right = '', left = '' }}, {'progress', icon = '', separator = { right = '▊', left = '' }, color = {bg = '#74c69d'}}}
   },
   inactive_sections = {
     lualine_a = {},
