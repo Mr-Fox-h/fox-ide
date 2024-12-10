@@ -35,7 +35,7 @@ dashboard.section.buttons.val = {
   dashboard.button("<S-q>", "  Git Status", ":Telescope git_status <CR>"),
   dashboard.button("<S-c>", "  Configuration", ":e $MYVIMRC <CR>"),
   dashboard.button("<S-n>", "  Notification", ":Telescope notify <CR>"),
-  dashboard.button("<S-m>", "󰌌  Mapping", ":help <CR>"),
+  dashboard.button("<S-m>", "󰿅  Exit", ": <CR>"),
 }
 
 local function footer()

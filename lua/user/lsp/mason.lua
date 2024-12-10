@@ -1,24 +1,20 @@
 local servers = {
-	"lua_ls",
-  "ruby_lsp",
-  "clangd",
-  "rust_analyzer"
+  "lua_ls",
 }
 
 local settings = {
-	ui = {
-		border = "none",
-		icons = {
-			package_installed = "󰬐",
-			package_pending = "󰬗",
-			package_uninstalled = "󰬜",
-		},
-	},
+  ui = {
+    border = "none",
+    icons = {
+      package_installed = "󰬐",
+      package_pending = "󰬗",
+      package_uninstalled = "󰬜",
+    },
+  },
 }
 
 require("mason").setup(settings)
 require("mason-lspconfig").setup({
-	ensure_installed = servers,
-	automatic_installation = true,
+  ensure_installed = servers,
+  automatic_installation = true,
 })
-

@@ -78,6 +78,9 @@ keymap("t", "<C-j>", "<C-\\><C-N><C-w>j", term_opts)
 keymap("t", "<C-k>", "<C-\\><C-N><C-w>k", term_opts)
 keymap("t", "<C-l>", "<C-\\><C-N><C-w>l", term_opts)
 
+-- System Monitor --
+keymap('n', "<Space>m", ":lua _BTOP_TOGGLE() <CR>", opts)
+
 -- LSP Formating --
 vim.api.nvim_create_autocmd("LspAttach", {
   callback = function(args)
