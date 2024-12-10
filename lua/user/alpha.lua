@@ -1,52 +1,50 @@
 local status_ok, alpha = pcall(require, "alpha")
 if not status_ok then
-	return
+  return
 end
 
 local dashboard = require("alpha.themes.dashboard")
 dashboard.section.header.val = {
-[[                           ]],
-[[                           ]],
-[[                           ]],
-[[                           ]],
-[[                           ]],
-[[                           ]],
-[[                           ]],
-[[                           ]],
-[[                           ]],
-[[                           ]],
-[[                           ]],
-[[                           ]],
-[[                           ]],
-[[                           ]],
-[[                           ]],
-[[                           ]],
-[[███████ ██ ██████  ███████ ]],
-[[██      ██ ██   ██ ██      ]],
-[[█████   ██ ██   ██ █████   ]],
-[[██      ██ ██   ██ ██      ]],
-[[██ OX   ██ ██████  ███████ ]],
-[[                           ]],
-[[    Powered By  eovim    ]],
+  [[                           ]],
+  [[                           ]],
+  [[                           ]],
+  [[                           ]],
+  [[                           ]],
+  [[                           ]],
+  [[                           ]],
+  [[                           ]],
+  [[                           ]],
+  [[                           ]],
+  [[                           ]],
+  [[                           ]],
+  [[                           ]],
+  [[                           ]],
+  [[███████ ██ ██████  ███████ ]],
+  [[██      ██ ██   ██ ██      ]],
+  [[█████   ██ ██   ██ █████   ]],
+  [[██      ██ ██   ██ ██      ]],
+  [[██ OX   ██ ██████  ███████ ]],
+  [[                           ]],
+  [[    Powered By  eovim    ]],
 }
 
 dashboard.section.buttons.val = {
-	dashboard.button("<S-s>", "  Find File", ":Telescope find_files <CR>"),
-	dashboard.button("<S-r>", "󱑆  Recent Files", ":Telescope oldfiles <CR>"),
-	dashboard.button("<S-f>", "󱉶  Find Words", ":Telescope live_grep <CR>"),
-	dashboard.button("<S-q>", "  Git Status", ":Telescope git_status <CR>"),
-	dashboard.button("<S-c>", "  Configuration", ":e $MYVIMRC <CR>"),
-	dashboard.button("<S-n>", "  Notification", ":Telescope notify <CR>"),
-	dashboard.button("<S-m>", "󰌌  Mapping", ":help <CR>"),
+  dashboard.button("<S-s>", "  Find File", ":Telescope find_files <CR>"),
+  dashboard.button("<S-r>", "󱑆  Recent Files", ":Telescope oldfiles <CR>"),
+  dashboard.button("<S-f>", "󱉶  Find Words", ":Telescope live_grep <CR>"),
+  dashboard.button("<S-q>", "  Git Status", ":Telescope git_status <CR>"),
+  dashboard.button("<S-c>", "  Configuration", ":e $MYVIMRC <CR>"),
+  dashboard.button("<S-n>", "  Notification", ":Telescope notify <CR>"),
+  dashboard.button("<S-m>", "󰌌  Mapping", ":help <CR>"),
 }
 
 local function footer()
--- NOTE: requires the fortune-mod package to work
-	-- local handle = io.popen("fortune")
-	-- local fortune = handle:read("*a")
-	-- handle:close()
-	-- return fortune
-	return "Mr-Fox-h"
+  -- NOTE: requires the fortune-mod package to work
+  -- local handle = io.popen("fortune")
+  -- local fortune = handle:read("*a")
+  -- handle:close()
+  -- return fortune
+  return "Mr-Fox-h"
 end
 
 dashboard.section.footer.val = footer()
