@@ -36,8 +36,6 @@
 This IDE have some cool Lua plugins such as:
 
 - [kanagawa](https://github.com/rebelot/kanagawa.nvim)
-- [gruvbox](https://github.com/ellisonleao/gruvbox.nvim)
-- [catppuccin](https://github.com/catppuccin/nvim)
 - [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
 - [nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons)
 - [nvim-tree.lua](https://github.com/nvim-tree/nvim-tree.lua)
