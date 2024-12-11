@@ -13,3 +13,15 @@ vim.api.nvim_create_autocmd("LspAttach", {
     end
   end,
 })
+
+-- Python Setup --
+require 'lspconfig'.pyright.setup {}
+
+-- Rust Setup --
+require 'lspconfig'.rust_analyzer.setup {}
+
+-- Ruby Setup --
+require 'lspconfig'.rubocop.setup {}
+
+-- C & CPP Setup --
+require 'lspconfig'.clangd.setup {}
