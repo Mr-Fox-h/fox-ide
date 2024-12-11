@@ -17,7 +17,7 @@
 
 ## Showcase
 
-![alt text](<IMG/Screenshot from 2024-12-11 13-04-30.png>)
+![alt text](<IMG/Screenshot from 2024-12-11 16-57-11.png>)
 
 ## What is Fox IDE?
 
