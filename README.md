@@ -6,11 +6,10 @@
   <span> | </span>
 	<a href="https://github.com/Mr-Fox-h/fox-ide#gift_heart-support">Support</a>
   <p></p>
-</div> 
+</div>
 
 <div align="center">
 
- 
 [![Neovim Minimum Version](https://img.shields.io/badge/Neovim-0.8.3-blueviolet.svg?style=flat-square&logo=Neovim&color=90E59A&logoColor=white)](https://github.com/neovim/neovim)
 [![GitHub Issues](https://img.shields.io/github/issues/FOX-IDE/Foxide.svg?style=flat-square)](https://github.com/Mr-Fox-h/fox-ide/issues)
 
@@ -18,36 +17,24 @@
 
 ## Showcase
 
-<img src="IMG/Fox_IDE.png">
+![alt text](<IMG/Screenshot from 2024-12-11 13-04-30.png>)
 
 ## What is Fox IDE?
 
-__Fox IDE__ is a simple IDE create with Neovim config and written in Lua. The goal of that to increase your speed of writing and more customizable.
+**Fox IDE** is a simple IDE create with Neovim config and written in Lua. The goal of that to increase your speed of writing and more customizable.
 
 ## Themes
 
-### Kangawa
+- Kangawa
+- Tokyonight
 
-<img src="IMG/K_1.png">
-<img src="IMG/K_2.png">
-<img src="IMG/K_3.png">
-
-### Gruvbox
-
-<img src="IMG/G_1.png">
-<img src="IMG/G_2.png">
-
-### Catppuccin
-
-<img src="IMG/C_1.png">
-<img src="IMG/C_2.png">
-<img src="IMG/C_3.png">
-<img src="IMG/C_4.png">
-<img src="IMG/C_5.png">
+![alt text](<IMG/Screenshot from 2024-12-11 13-09-44.png>)
+![alt text](<IMG/Screenshot from 2024-12-11 13-13-11.png>)
 
 ## Plugins
 
 This IDE have some cool Lua plugins such as:
+
 - [kanagawa](https://github.com/rebelot/kanagawa.nvim)
 - [gruvbox](https://github.com/ellisonleao/gruvbox.nvim)
 - [catppuccin](https://github.com/catppuccin/nvim)
@@ -91,7 +78,8 @@ Then, open Neovim and use this command:
 ## Uninstall
 
 Linux / Mac (Unix):
-``` 
+
+```
 rm -rf ~/.config/nvim
 rm -rf ~/.local/share/nvim
 ```
@@ -107,17 +95,17 @@ rd -r ~\AppData\Local\nvim-data
 
 I used to use VScode with vim extension. The VScode was good, but not perfect for me! because I install vim extension on VScode to write code without using silly mouse Or touchpad; In VScode you always need mouse or touchpad, and it was make me slow, and The VScode always try to kill my Memory, so I decide to create my own IDE with Vim editor, but Vim is too old, os I used Neovim.
 
-## :gift_heart: Support
+## Support US
 
-If you like __Fox IDE__ and would like to support & appreciate it via donation then I'll gladly accept it.
+If you like **Fox IDE** and would like to support & appreciate it via donation then I'll gladly accept it.
 
-BTC Address: __115mSQyzNfmYsk9MpZHHcy6KNYHUmhNuaw__
+BTC Address: **115mSQyzNfmYsk9MpZHHcy6KNYHUmhNuaw**
 
-ETH Address: __0x9a3de7016d69114858b27dbc7eda95d9cf4fec3c__
+ETH Address: **0x9a3de7016d69114858b27dbc7eda95d9cf4fec3c**
 
-SOL Address: __2xy5Jipa8iA32b6aGGqP664JhdbdcasYGTz3Frk5JQiP__
+SOL Address: **2xy5Jipa8iA32b6aGGqP664JhdbdcasYGTz3Frk5JQiP**
 
-TRX Address: __TKRKXCejSw5Z4UL5u5nQqzQB9bk4eVbsPt__
+TRX Address: **TKRKXCejSw5Z4UL5u5nQqzQB9bk4eVbsPt**
 
 <div align="center">
 
@@ -138,4 +126,4 @@ TRX Address: __TKRKXCejSw5Z4UL5u5nQqzQB9bk4eVbsPt__
 
 ## Version
 
-Version 0.6.1
+Version 0.8.0
