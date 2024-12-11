@@ -81,18 +81,6 @@ keymap("t", "<C-l>", "<C-\\><C-N><C-w>l", term_opts)
 -- System Monitor --
 keymap('n', "<Space>m", ":lua _BTOP_TOGGLE() <CR>", opts)
 
--- LSP Formating --
-vim.api.nvim_create_autocmd("LspAttach", {
-  callback = function(args)
-    local client = vim.lsp.get_client_by_id(args.data.client_id)
-    if not client then return end
-    if client.supports_method('textDocument/formatting') then
-      vim.api.nvim_create_autocmd('BufWritePre', {
-        buffer = args.buf,
-        callback = function()
-          vim.lsp.buf.format({ bufnr = args.buf, id = client.id })
-        end
-      })
-    end
-  end,
-})
+-- Fox ide run --
+keymap('n', "<Space><Space>x", ":.lua <CR>", opts)
+keymap('n', "<Space>x", ":lua _FOX_IDE_RUN()<CR>", opts)
