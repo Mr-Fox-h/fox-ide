@@ -17,15 +17,14 @@ function _FOX_IDE_RUN()
   vim.notify("Running: " .. jsonData.program.run, vim.log.levels.INFO)
   if jsonData.program.build ~= '' then
     local buildHandle = io.popen(jsonData.program.build)
-    local buildOutput = buildHandle:read("*a")
+    -- local buildOutput = buildHandle:read("*a")
     buildHandle:close()
-    vim.notify("Build Output:\n" .. buildOutput, vim.log.levels.INFO)
   end
   local runHandle = io.popen(jsonData.program.run)
   local runOutput = runHandle:read("*a")
   runHandle:close()
 
-  vim.notify("Run Output:\n" .. runOutput, vim.log.levels.INFO)
+  return runOutput
 end
 
 -- Settings --

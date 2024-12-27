@@ -83,4 +83,4 @@ keymap('n', "<Space>m", ":lua _BTOP_TOGGLE() <CR>", opts)
 
 -- Fox ide run --
 keymap('n', "<Space><Space>x", ":.lua <CR>", opts)
-keymap('n', "<Space>x", ":lua _FOX_IDE_RUN()<CR>", opts)
+keymap('n', "<Space>x", ":Run <CR>", opts)

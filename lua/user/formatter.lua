@@ -25,3 +25,6 @@ require 'lspconfig'.rubocop.setup {}
 
 -- C & CPP Setup --
 require 'lspconfig'.clangd.setup {}
+
+-- Ocaml Setup --
+require 'lspconfig'.ocamllsp.setup {}
