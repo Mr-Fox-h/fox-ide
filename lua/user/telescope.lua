@@ -1,4 +1,4 @@
-require('telescope').setup{
+require('telescope').setup {
   defaults = {
     -- Default configuration for telescope goes here:
     -- config_key = value,
@@ -30,7 +30,7 @@ require('telescope').setup{
       prompt_prefix = " >"
     },
     live_grep = {
-      theme = "dropdown",
+      theme = "cursor",
       prompt_prefix = " >"
     },
   },

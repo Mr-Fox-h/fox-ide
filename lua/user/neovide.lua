@@ -1,9 +1,17 @@
 if vim.g.neovide then
-
   -- Fonts
-  vim.o.guifont = "JetBrainsMono Nerd Font"
+  vim.o.guifont = "JetBrainsMonoNL Nerd Font:h24"
 
-  require('telescope').setup{
+
+  local change_scale_factor = function(delta)
+    vim.g.neovide_scale_factor = vim.g.neovide_scale_factor * delta
+  end
+
+  vim.keymap.set("n", "<C-=>", function() change_scale_factor(1.25) end)
+  vim.keymap.set("n", "<C-->", function() change_scale_factor(1 / 1.25) end)
+
+  -- Telescope setup
+  require('telescope').setup {
     defaults = {
       winblend = 70,
     }
@@ -40,9 +48,22 @@ if vim.g.neovide then
     change_scale_factor(1.25)
   end)
   vim.keymap.set("n", "<C-->", function()
-    change_scale_factor(1/1.25)
+    change_scale_factor(1 / 1.25)
   end)
 
   -- Profiler
   vim.g.neovide_profiler = false
+
+  -- Full-screen toggle (simulated)
+  local is_fullscreen = false
+  vim.keymap.set("n", "<F11>", function()
+    if is_fullscreen then
+      vim.cmd("silent !wmctrl -r :ACTIVE: -b remove,fullscreen")
+    else
+      vim.cmd("silent !wmctrl -r :ACTIVE: -b add,fullscreen")
+    end
+    is_fullscreen = not is_fullscreen
+  end)
 end
+
+-- If you want fullscreen, install `wmctrl`
