@@ -1,5 +1,6 @@
 local servers = {
   "lua_ls",
+  "pyright",
 }
 
 local settings = {
