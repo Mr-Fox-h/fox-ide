@@ -1,19 +1,25 @@
-local null_ls_status_ok, null_ls = pcall(require, "null-ls")
-if not null_ls_status_ok then
-  print("Error!\nThere is no LSP!")
-end
-
--- https://github.com/jose-elias-alvarez/null-ls.nvim/tree/main/lua/null-ls/builtins/formatting
-local formatting = null_ls.builtins.formatting
--- https://github.com/jose-elias-alvarez/null-ls.nvim/tree/main/lua/null-ls/builtins/diagnostics
-local diagnostics = null_ls.builtins.diagnostics
+local null_ls = require("null-ls")
 
 null_ls.setup({
-  debug = false,
   sources = {
-    formatting.prettier.with({ extra_args = { "--no-semi", "--single-quote", "--jsx-single-quote" } }),
-    formatting.black.with({ extra_args = { "--fast" } }),
-    formatting.stylua,
-    -- diagnostics.flake8
+    -- Formatting
+    null_ls.builtins.formatting.prettier.with({
+      extra_args = { "--no-semi", "--single-quote", "--jsx-single-quote" },
+    }),
+    null_ls.builtins.formatting.black.with({ extra_args = { "--fast" } }),
+    null_ls.builtins.formatting.stylua,
+
+    -- Diagnostics (uncomment if needed)
+    -- null_ls.builtins.diagnostics.flake8,
   },
+  on_attach = function(client)
+    if client.supports_method("textDocument/formatting") then
+      vim.api.nvim_create_autocmd("BufWritePre", {
+        buffer = 0,
+        callback = function()
+          vim.lsp.buf.format({ async = false })
+        end,
+      })
+    end
+  end,
 })

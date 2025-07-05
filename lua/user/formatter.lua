@@ -33,5 +33,5 @@ lspconfig.clangd.setup({})
 -- TypeScript/JavaScript Setup --
 lspconfig.ts_ls.setup({})
 
--- Nim Setup
-lspconfig.nimls.setup({})
+-- Svelte Setup --
+lspconfig.svelte.setup({})
