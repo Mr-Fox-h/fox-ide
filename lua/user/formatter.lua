@@ -35,3 +35,6 @@ lspconfig.ts_ls.setup({})
 
 -- Svelte Setup --
 lspconfig.svelte.setup({})
+
+-- Tailwindcss Setup --
+lspconfig.tailwindcss.setup({})

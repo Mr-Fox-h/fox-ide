@@ -199,6 +199,11 @@ _G.packer_plugins = {
     path = "/home/mr-fox/.local/share/nvim/site/pack/packer/start/nvim-notify",
     url = "https://github.com/rcarriga/nvim-notify"
   },
+  ["nvim-platformio.lua"] = {
+    loaded = true,
+    path = "/home/mr-fox/.local/share/nvim/site/pack/packer/start/nvim-platformio.lua",
+    url = "https://github.com/anurag3301/nvim-platformio.lua"
+  },
   ["nvim-tree.lua"] = {
     loaded = true,
     path = "/home/mr-fox/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",

@@ -54,7 +54,7 @@ return packer.startup(function(use)
   use "windwp/nvim-autopairs"
   use "lewis6991/gitsigns.nvim"
   use "rcarriga/nvim-notify"
-  use { 'michaelb/sniprun', run = 'sh ./install.sh' }
+  use { 'michaelb/sniprun', run = 'sh ./install.sh 1' }
   use "ziontee113/color-picker.nvim"
   use "norcalli/nvim-colorizer.lua"
   use "sudormrfbin/cheatsheet.nvim"
@@ -62,6 +62,7 @@ return packer.startup(function(use)
   use 'hrsh7th/cmp-vsnip'
   use 'hrsh7th/vim-vsnip'
   use 'simrat39/symbols-outline.nvim'
+  use 'anurag3301/nvim-platformio.lua'
 
   -- Colorschemes
   use "rebelot/kanagawa.nvim"
